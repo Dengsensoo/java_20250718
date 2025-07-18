@@ -6,6 +6,12 @@ public class Switch_test {
 		// TODO Auto-generated method stub
 		int dice = ((int) (Math.random() * 6)) + 1; // 1,2,3,4,5,6 중에 랜덤으로 하나를 저장
 		
+		String ch="kor";
+		
+		switch(ch) {
+			case "kor":
+		}
+		
 		switch(dice) {
 			case 1:
 				System.out.println("1이 나왔습니다");
